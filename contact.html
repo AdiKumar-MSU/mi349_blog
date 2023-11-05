@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact - Adi's Thoughts</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Adi's Thoughts</h1>
+      <p>Adi's Thoughts on Stuff that happened</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <h2>Contact Me</h2>
+    <p>Fill out the form below to get in touch with me</p>
+
+    <form class="contact">
+        <label class="question">
+            Enter your name: 
+            <input id="first-name" type="text" required/>
+        </label>
+        <label class="question">
+            Enter your email: 
+            <input id="email" type="email" required/>
+        </label>
+        <label class="question">
+            Reason for contacting me: 
+            <select id="contact">
+                <option>(select one)</option>
+                <option>Saying hi</option>
+                <option>Looking for a contractor</option>
+                <option>Interested in an interview</option>
+                <option>Other</option>
+              </select>
+        </label>
+        <label class="question">
+            Provide any comments below:
+            <textarea id="comments" rows="3" cols="30"></textarea>
+        </label>
+        <button>Submit</button>
+    </form>
+  </body>

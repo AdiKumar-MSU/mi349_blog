@@ -4,11 +4,121 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Title</title>
-    <link rel="stylesheet" href="screen.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Adi's Thoughts</title>
   </head>
   <body>
-    <h1>Heading</h1>
-    <script src="index.js"></script>
+    <header>
+      <h1>Adi's Thoughts</h1>
+      <p>Adi's Thoughts on Stuff that happened</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="blog">
+      <h2>My Thoughts</h2>
+      <article class="blog-post">
+        <h3>Review of Chocolate Starfish and the Hotdog Flavored Water by Limp Bizkit</h3>
+        <address class="author">Adi Kumar</address>
+        <time datetime="2023-11-05" title="November 5, 2023">November 5, 2023</time>
+
+        <p><img alt="Album cover art of chocolate starfish and the hotdog flavored water by Limp Bizkit" src="album.PNG"/></p>
+
+        <p>Chocolate Starfish and the Hotdog Flavored Water is an album by the nu-metal band Limp Bizkit, released in 2000. The album consists of 15 songs and is 1hr and 14 mins long. But those 74 minutes went by in a flash while I was listening to it, I had never really listened to any nu-metal before yesterday, but <strong>HOLY SHIT</strong> does it get you hyped! The drums and dissonant guitar riffs drums mixed with the aggressive/angsty vocals of Fred Durst make you never want to stop headbanging to the beat. My favorite song has to be <em>My Way</em>, mainly for the chorus,"My way or the highway", it's a feeling that we've all wanted to tell someone at some point in our lives. The album definitely  is of its time, exemplified by the production of the songs that incorporate vinyl scratching and distortion of vocals, not to mention the countless references to pop culture that most younger people including myself won't get. Simply put, this album goes hard, what more is there to say?</p>
+      </article>
+
+      <article class="blog-post">
+        <h3>On Palestine</h3>
+        <address class="author">Adi Kumar</address>
+        <time datetime="2023-11-05" title="November 5, 2023">November 5, 2023</time>
+        <p><img alt="Gaza Blockade Infographic" src="infographic.png"/></p>
+        
+        <p>This is admittedly quite a change in tone from my previous blog post, but I think that it's a good way for me to vent my anger on the events in Palestine that have been occuring for the past month. Of course, the occupation of Palestine has been ongoing for the past 75 years now, and there has been a blockade on Gaza since 2007. The only power plant that existed in Gaza was destroyed in the 2006 war, and the Palestinians have not been allowed to turn it back on since. 90-95% of the water in Gaza is contaminated, and Israel forbids the transfer of water from the West Bank into Gaza according to <a href="https://www.amnesty.org/en/latest/campaigns/2017/11/the-occupation-of-water/">Amnesty International</a>. Additionally, in the West Bank, there is ongoing forced ethnic cleansing and removals of Palestinians from their homes, and new settlements get built on top of these communities. The UN has declared these settlements illegal, but of course when you recieve billions from the U.S. every year none of that matters. And Israel uses this money and weapons from America to kill thousands of Palestinians. Just in the past month alone 9,000 civilians have been murdered, almost 4,000 of which are children. In what world is this not genocide?</p>
+
+        <h3>Palestinian fatalities by year since 2008</h3>
+        <p><em>Sources: UN Office for the Coordination of Humanitarian Affairs, AP News</em></p>
+        <table>
+          <tr>
+            <th>Year</th>
+            <th>Fatalities</th>
+          </tr>
+          <tr>
+            <td>2008</td>
+            <td>899</td>
+          </tr>
+          <tr>
+            <td>2009</td>
+            <td>1066</td>
+          </tr>
+          <tr>
+            <td>2010</td>
+            <td>95</td>
+          </tr>
+          <tr>
+            <td>2011</td>
+            <td>124</td>
+          </tr>
+          <tr>
+            <td>2012</td>
+            <td>260</td>
+          </tr>
+          <tr>
+            <td>2013</td>
+            <td>39</td>
+          </tr>
+          <tr>
+            <td>2014</td>
+            <td>2,329</td>
+          </tr>
+          <tr>
+            <td>2015</td>
+            <td>174</td>
+          </tr>
+          <tr>
+            <td>2016</td>
+            <td>109</td>
+          </tr>
+          <tr>
+            <td>2017</td>
+            <td>77</td>
+          </tr>
+          <tr>
+            <td>2018</td>
+            <td>300</td>
+          </tr>
+          <tr>
+            <td>2019</td>
+            <td>138</td>
+          </tr>
+          <tr>
+            <td>2020</td>
+            <td>30</td>
+          </tr>
+          <tr>
+            <td>2021</td>
+            <td>349</td>
+          </tr>
+          <tr>
+            <td>2022</td>
+            <td>191</td>
+          </tr>
+          <tr>
+            <td>2023</td>
+            <td>9,061</td>
+          </tr>
+        </table>
+      </article>
+    </section>
+    <form class="newsletter">
+      <label class="question">
+        Sign up for my newsletter!
+        <input type="email" name="name" id="name" required />
+        <button>Sign Up</button>
+      </label>
+    </form>
   </body>
 </html>
